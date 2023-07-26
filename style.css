@@ -209,3 +209,28 @@ body {
     letter-spacing: 4px;
     font-size: 50px;
     }
+.publications {
+  justify-content: space-evenly;
+  gap: 1rem;
+  align-items: center;
+  display: flex;
+  max-width: 70%;
+}
+
+.pub {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  background-color: white;
+  border: 1rem solid white;
+  justify-content: center;
+}
+
+
+.btn {
+  margin: 1rem;
+  color: orange;
+  min-width: 150px;
+  min-height: 40px;
+  border: 1px solid orange;
+  }
