@@ -298,6 +298,7 @@ body {
   }
 
 .in_img {
+  position: relative;
   display: flex;
   width: 50%;
   }
@@ -335,9 +336,9 @@ body {
   color: white;
   background-color: orange;
   position: absolute;
+bottom:0;
+    left:0;
   border: none;
-  margin-top: 500px;
-  margin-left: 50px;
   width: 200px;
   height: 40px;
 }
