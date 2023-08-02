@@ -305,7 +305,14 @@ body {
 .btttn {
     position: absolute;
     bottom:2rem;
-    left:0;
+    background-color: orange;
+    border: none;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
 
 .in_txt {
@@ -334,14 +341,8 @@ body {
   }
 
 .bttn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  background-color: orange;
-  border: none;
-  width: 200px;
-  height: 40px;
+  
+  
 }
 
 .bug1 {
